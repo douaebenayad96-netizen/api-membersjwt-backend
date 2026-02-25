@@ -7,7 +7,7 @@ const verifyToken = require('./middleware/verifyToken');
 
 const app = express();
 const PORT = 5000;
-const secret = 'fullstack_secret_key';
+const secret = process.env.JWT_SECRET || 'fullstack_secret_key';
 
 // Middlewares
 app.use(morgan('dev'));

@@ -19,7 +19,7 @@ app.use(cors());
 let members = [
     { id: 1, name: "Amal Amal", email: "amal@example.com" },
     { id: 2, name: "Ali Ali", email: "ali@example.com" },
-    { id: 3, name: "Ahmed Al", email: "ahmed@example.com" }
+    { id: 3, name: "Ahmed Ahmed", email: "ahmed@example.com" }
 ];
 
 // ============================================
